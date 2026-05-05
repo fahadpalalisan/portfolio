@@ -1,1 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #1a472a, #2d6a4f);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.hero .title {
+  font-size: 22px;
+  color: #95d5b2;
+  margin-bottom: 8px;
+}
+
+.hero .subtitle {
+  font-size: 16px;
+  color: #b7e4c7;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  background-color: #d4a017;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #b8860b;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+/* Section */
+.section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.section h2 {
+  color: #1a472a;
+  font-size: 24px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #d4a017;
+}
+
+.section p {
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Card Grid */
+.card-grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card h3 {
+  color: #1a472a;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #d4a017;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.service {
+  text-align: left;
+}
+
+.service h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* Contact */
+.contact-info {
+  background-color: #f0f7f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.contact-info a {
+  color: #1a472a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  background-color: #1a472a;
+  color: #b7e4c7;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
